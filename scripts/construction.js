@@ -61,7 +61,7 @@ function initializeAnimations() {
     });
 
     // Typewriter animation for headings
-    gsap.utils.toArray('.typewriter-text').forEach(element => {
+    gsap.utils.toArray('.typewriter-construct').forEach(element => {
         const text = element.textContent;
         gsap.to(element, {
             text: { value: text, delimiter: '' },
@@ -75,22 +75,21 @@ function initializeAnimations() {
         });
     });
 }
+
 // Type Writer Effect 
- const text = 'Manned Guarding';
-    const typewriterElement = document.querySelector('.typewriter-text');
+  const text = 'Construction Security';
+    const typewriterElement3 = document.querySelector('.typewriter-construct');
     let charIndex = 0;
 
     function type() {
         if (charIndex < text.length) {
-            typewriterElement.textContent += text.charAt(charIndex);
+            typewriterElement3.textContent += text.charAt(charIndex);
             charIndex++;
             setTimeout(type, 100); // typing speed
         }
     }
 
     document.addEventListener('DOMContentLoaded', type);
-
-    // typewiter canine
 
     
 
