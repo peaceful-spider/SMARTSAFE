@@ -13,7 +13,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/mannedGuarding.css">
-    <script src="../scripts/mannedGuarding.js" defer></script>
+    <script src="../scripts/mobile-patrol.js" defer></script>
 </head>
 <body>
     <!-- Navigation -->
@@ -29,7 +29,7 @@
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="../index.html" class="hover:text-[#d4a667] transition-colors">Home</a>
                     <div class="dropdown">
-                        <a href="#" class="hover:text-[#d4a667] transition-colors dropdown-toggle" aria-haspopup="true" aria-expanded="false">Services</a>
+                        <a href="#" class="text-[#d4a667] hover:text-[#d4a667] transition-colors dropdown-toggle" aria-haspopup="true" aria-expanded="false">Services</a>
                         <div class="dropdown-menu">
                             <a href="canine.html" class="hover:text-[#d4a667]">Canine Security</a>
                             <a href="mobile-patrol.html" class="hover:text-[#d4a667]">Mobile Patrol</a>
@@ -39,8 +39,8 @@
                     </div>
                     <a href="../about.html" class="hover:text-[#d4a667] transition-colors">About</a>
                     <a href="../contact.html" class="hover:text-[#d4a667] transition-colors">Contact</a>
-                    <button class="bg-gradient-to-r from-[#d4a667] to-[#e0c29a] px-6 py-2 rounded-full text-[#3b2f17] font-semibold btn-glow hover:shadow-lg hover:shadow-[#d4a667]/25 transition-all">
-                        Get Quote
+                    <button class="bg-gradient-to-r from-[#d4a667] to-[#e0c29a] px-6 py-2 rounded-full  text-[#3b2f17] font-semibold btn-glow hover:shadow-lg hover:shadow-[#d4a667]/25 transition-all">
+                    Get Quote
                     </button>
                     <button class="theme-toggle" aria-label="Toggle theme">
                         <svg width="20" height="20" fill="#d4a667" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
@@ -63,7 +63,7 @@
                 </div>
                 <a href="../about.html" class="hover:text-[#d4a667] transition-colors">About</a>
                 <a href="../contact.html" class="hover:text-[#d4a667] transition-colors">Contact</a>
-                <button class="bg-gradient-to-r from-[#d4a667] to-[#e0c29a] px-6 py-2 rounded-full text-[#3b2f17] font-semibold btn-glow hover:shadow-lg hover:shadow-[#d4a667]/25 transition-all">
+                <button class="bg-gradient-to-r from-[#d4a667] to-[#e0c29a] px-6 py-2 rounded-full  text-[#3b2f17] font-semibold btn-glow hover:shadow-lg hover:shadow-[#d4a667]/25 transition-all">
                     Get Quote
                 </button>
                 <button class="theme-toggle" aria-label="Toggle theme">
@@ -82,9 +82,10 @@
                     <a href="../index.html">Home</a> > <a href="../index.html#services">Services</a> > <span>Manned Guarding</span>
                 </nav>
                 <h1 class="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-                    Elite <br>
-                    <span class="bg-gradient-to-r from-[#d4a667] to-[#e0c29a] bg-clip-text text-transparent typewriter-text">Manned Guarding</span>
-                </h1>
+    Elite <br>
+    <span class="bg-gradient-to-r from-[#d4a667] to-[#e0c29a] bg-clip-text text-transparent typewriter-mobile"></span>
+</h1>
+
                 <p class="text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
                     Highly trained, SIA-licensed guards deliver professional security, ensuring safety and peace of mind for your premises.
                 </p>
@@ -154,45 +155,42 @@
                     </p>
                     <div class="space-y-4">
                         <div class="feature-item flex items-start gap-4">
-                            <i class="fas fa-walking text-[#d4a667] text-xl"></i>
+                            
                             <div>
-                                <h4 class="font-semibold">Routine Patrols</h4>
+                                <h4 class="font-semibold text-[#e0c29a] text-xl"><span><i class="fas fa-walking text-[#d4a667] text-2xl"></i>       </span>Routine Patrols</h4>
                                 <p>Regular patrols to monitor activity, deter threats, and maintain a safe environment.</p>
                             </div>
                         </div>
                         <div class="feature-item flex items-start gap-4">
-                            <i class="fas fa-key text-[#d4a667] text-xl"></i>
                             <div>
-                                <h4 class="font-semibold">Access Control</h4>
+                                <h4 class="font-semibold text-[#e0c29a] text-xl"><span><i class="fas fa-key text-[#d4a667] text-xl"></i>    </span>Access Control</h4>
                                 <p>Securing all entry and exit points to manage employee, visitor, and contractor flow.</p>
                             </div>
                         </div>
                         <div class="feature-item flex items-start gap-4">
-                            <i class="fas fa-video text-[#d4a667] text-xl"></i>
                             <div>
-                                <h4 class="font-semibold">CCTV Surveillance</h4>
+                                <h4 class="font-semibold text-[#e0c29a] text-xl"><span><i class="fas fa-video text-[#d4a667] text-xl"></i>   </span>CCTV Surveillance</h4>
                                 <p>Monitoring high-traffic and sensitive areas to enhance security coverage.</p>
                             </div>
                         </div>
                         <div class="feature-item flex items-start gap-4">
-                            <i class="fas fa-user-shield text-[#d4a667] text-xl"></i>
                             <div>
-                                <h4 class="font-semibold">Vigilant Security Personnel</h4>
+                                <h4 class="font-semibold text-[#e0c29a] text-xl"><span><i class="fas fa-user-shield text-[#d4a667] text-xl"></i> </span>    Vigilant Security Personnel</h4>
                                 <p>Guards trained to respond swiftly to incidents, ensuring safety and peace of mind.</p>
                             </div>
                         </div>
                     </div>
                     <div class="mt-6 flex space-x-4">
-                        <a href="../index.html#services" class="bg-gradient-to-r from-[#d4a667] to-[#e0c29a] px-6 py-3 rounded-full text-[#3b2f17] font-semibold btn-glow hover:shadow-lg hover:shadow-[#d4a667]/25 transition-all">
+                        <a href="../index.html#services" class="bg-gradient-to-r from-[#d4a667] to-[#e0c29a] px-6 py-3 rounded-full text-[#3b2f17] font-semibold btn-glow hover:shadow-lg hover:shadow-[#d4a667]/25 transition-all mt-8">
                             View Our Services
                         </a>
-                        <a href="#contact" class="bg-gradient-to-r from-[#d4a667] to-[#e0c29a] px-6 py-3 rounded-full text-[#3b2f17] font-semibold btn-glow hover:shadow-lg hover:shadow-[#d4a667]/25 transition-all">
+                        <a href="#contact" class="bg-gradient-to-r from-[#d4a667] to-[#e0c29a] px-6 py-3 rounded-full text-[#3b2f17] font-semibold btn-glow hover:shadow-lg hover:shadow-[#d4a667]/25 transition-all mt-8">
                             Make An Enquiry
                         </a>
                     </div>
                 </div>
-                <div class="fade-scale-holo px-6">
-                    <img src="https://images.unsplash.com/photo-1588093915088-4985c2b5b3b3?auto=format&fit=crop&w=600&q=80" alt="Manned Guarding" class="w-full h-96 object-cover rounded-2xl glow-effect card-hover">
+                <div class="fade-scale-holo px-6" style="margin-top: 100px;">
+                    <img src="images/man.jpeg" alt="Manned Guarding" class="w-full h-96 object-cover rounded-2xl glow-effect card-hover">
                 </div>
             </div>
         </div>
@@ -216,47 +214,47 @@
                     </p>
                     <div class="space-y-4">
                         <div class="feature-item flex items-start gap-4">
-                            <i class="fas fa-mobile-alt text-[#d4a667] text-xl"></i>
+                            
                             <div>
-                                <h4 class="font-semibold">Patrol Logging</h4>
+                                <h4 class="font-semibold text-[#e0c29a] text-xl"><span><i class="fas fa-mobile-alt text-[#d4a667] text-xl"></i></span>  Patrol Logging</h4>
                                 <p>Every patrol is documented via a mobile app, ensuring accountability and transparency.</p>
                             </div>
                         </div>
                         <div class="feature-item flex items-start gap-4">
-                            <i class="fas fa-sign text-[#d4a667] text-xl"></i>
+                            
                             <div>
-                                <h4 class="font-semibold">Safety Signage Placement</h4>
+                                <h4 class="font-semibold [#e0c29a] text-xl"><span><i class="fas fa-sign text-[#d4a667] text-xl"></i></span>  Safety Signage Placement</h4>
                                 <p>Strategically placed signage to assist visitors and reinforce site policies.</p>
                             </div>
                         </div>
                         <div class="feature-item flex items-start gap-4">
-                            <i class="fas fa-cogs text-[#d4a667] text-xl"></i>
+                            
                             <div>
-                                <h4 class="font-semibold">Customised Security Tasks</h4>
+                                <h4 class="font-semibold text-[#e0c29a] text-xl"><span><i class="fas fa-cogs text-[#d4a667] text-xl"></i></span> Customised Security Tasks</h4>
                                 <p>Tailored tasks to meet the specific needs of your site for a seamless experience.</p>
                             </div>
                         </div>
                         <div class="feature-item flex items-start gap-4">
-                            <i class="fas fa-bolt text-[#d4a667] text-xl"></i>
+                            
                             <div>
-                                <h4 class="font-semibold">Rapid Incident Response</h4>
+                                <h4 class="font-semibold text-[#e0c29a] text-xl"><span><i class="fas fa-bolt text-[#d4a667] text-xl"></i></span>  Rapid Incident Response</h4>
                                 <p>Swift and effective response to security concerns to maintain a secure environment.</p>
                             </div>
                         </div>
                         <div class="feature-item flex items-start gap-4">
-                            <i class="fas fa-headset text-[#d4a667] text-xl"></i>
+                            
                             <div>
-                                <h4 class="font-semibold">Communication and Coordination</h4>
+                                <h4 class="font-semibold text-[#e0c29a] text-xl"><span><i class="fas fa-headset text-[#d4a667] text-xl"></i></span>Communication and Coordination</h4>
                                 <p>Open communication with management and staff for efficient security operations.</p>
                             </div>
                         </div>
                     </div>
-                    <a href="#contact" class="mt-6 inline-block bg-gradient-to-r from-[#d4a667] to-[#e0c29a] px-6 py-3 rounded-full text-[#3b2f17] font-semibold btn-glow hover:shadow-lg hover:shadow-[#d4a667]/25 transition-all">
+                    <a href="#contact" class="mt-6 inline-block bg-gradient-to-r from-[#d4a667] to-[#e0c29a] px-6 py-3 rounded-full text-[#3b2f17] font-semibold btn-glow hover:shadow-lg hover:shadow-[#d4a667]/25 transition-all mt-8">
                         Make An Enquiry
                     </a>
                 </div>
-                <div class="fade-scale-holo px-6">
-                    <img src="https://images.unsplash.com/photo-1516321165247-4aa89a48d2df?auto=format&fit=crop&w=600&q=80" alt="Experienced Guards" class="w-full h-96 object-cover rounded-2xl glow-effect card-hover">
+                <div class="fade-scale-holo px-6" style="margin-top: 100px;">
+                    <img src="images/exep.jpeg" alt="Experienced Guards" class="w-full h-96 object-cover rounded-2xl glow-effect card-hover">
                 </div>
             </div>
         </div>
@@ -327,7 +325,7 @@
                             <i class="fas fa-user-tie text-[#3b2f17] text-xl"></i>
                         </div>
                         <div class="text-left">
-                            <p class="font-semibold text-[#3b2f17]">John Reynolds</p>
+                            <p class="font-semibold text-[#e0c29a]">John Reynolds</p>
                             <p>Head of Security Operations, SecureGuard Pro</p>
                         </div>
                     </div>
@@ -349,16 +347,16 @@
             </div>
             <div class="relative">
                 <div class="popular-service-slide active fade-scale-holo">
-                    <img src="https://images.unsplash.com/photo-1588093915088-4985c2b5b3b3?auto=format&fit=crop&w=800&q=80" alt="Canine Security" class="w-full h-96 object-cover rounded-2xl">
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#2d2412]/70 to-transparent"></div>
+                    <img src="images/img-ser2.jpeg" alt="Canine Security" class="w-full h-96 object-cover rounded-2xl">
+                    <!-- overlay divs -->
                     <div class="absolute bottom-8 left-8 right-8 slide-text-container">
                         <h3 id="popular-service-typewriter" class="text-3xl font-extrabold text-[#3b2f17] typewriter-text"></h3>
                         <p class="mt-2">Highly trained canine units for superior protection.</p>
                     </div>
                 </div>
                 <div class="popular-service-slide fade-scale-holo">
-                    <img src="https://images.unsplash.com/photo-1516321165247-4aa89a48d2df?auto=format&fit=crop&w=800&q=80" alt="Mobile Patrol" class="w-full h-96 object-cover rounded-2xl">
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#2d2412]/70 to-transparent"></div>
+                    <img src="images/img-ser1.jpeg" alt="Mobile Patrol" class="w-full h-96 object-cover rounded-2xl">
+                                        <!-- overlay divs -->
                     <div class="absolute bottom-8 left-8 right-8 slide-text-container">
                         <h3 id="popular-service-typewriter" class="text-3xl font-extrabold text-[#3b2f17] typewriter-text"></h3>
                         <p class="mt-2">Dynamic patrols ensuring comprehensive coverage.</p>
@@ -366,17 +364,17 @@
                 </div>
                 <div class="popular-service-slide fade-scale-holo">
                     <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Construction Security" class="w-full h-96 object-cover rounded-2xl">
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#2d2412]/70 to-transparent"></div>
+                     <!-- overlay divs -->
                     <div class="absolute bottom-8 left-8 right-8 slide-text-container">
                         <h3 id="popular-service-typewriter" class="text-3xl font-extrabold text-[#3b2f17] typewriter-text"></h3>
                         <p class="mt-2">Robust security for construction sites.</p>
                     </div>
                 </div>
                 <button onclick="previousPopularService()" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-transparent border-2 border-[#d4a667] rounded-full p-3 hover:bg-[#d4a667] hover:border-transparent transition-all">
-                    <i class="fas fa-chevron-left text-[#3b2f17]"></i>
+                    <i class="fas fa-chevron-left text-[#2a2a2a]"></i>
                 </button>
                 <button onclick="nextPopularService()" class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-transparent border-2 border-[#d4a667] rounded-full p-3 hover:bg-[#d4a667] hover:border-transparent transition-all">
-                    <i class="fas fa-chevron-right text-[#3b2f17]"></i>
+                    <i class="fas fa-chevron-right text-[#2a2a2a]"></i>
                 </button>
                 <button id="slider-toggle" class="absolute top-4 right-4 bg-[#d4a667] rounded-full p-2 text-[#3b2f17] hover:bg-[#e0c29a] transition-colors" aria-label="Pause slider">
                     <i class="fas fa-pause"></i>
@@ -386,106 +384,102 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-16">
-        <div class="container mx-auto">
-            <div class="text-center mb-12 fade-scale-holo">
-                <h2 class="text-4xl lg:text-5xl font-bold mb-6">
-                    <span class="bg-gradient-to-r from-[#d4a667] to-[#e0c29a] bg-clip-text text-transparent typewriter-text">Get In Touch</span>
-                </h2>
-                <p class="text-lg max-w-2xl mx-auto">
-                    Ready to secure your property with our professional guards? Contact our experts today.
-                </p>
-            </div>
-            <div class="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
-                <div class="fade-scale-holo">
-                    <div class="glass-effect rounded-2xl p-6 card-hover">
-                        <h3 class="text-xl font-bold mb-6">Send Us a Message</h3>
-                        <form class="space-y-6">
-                            <div class="grid md:grid-cols-2 gap-6">
-                                <div>
-                                    <label class="block text-sm font-medium mb-2">First Name</label>
-                                    <input type="text" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-[#3b2f17] placeholder-[#4b5563] focus:border-[#d4a667] focus:outline-none transition-colors" placeholder="John" required>
-                                </div>
-                                <div>
-                                    <label class="block text-sm font-medium mb-2">Last Name</label>
-                                    <input type="text" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-[#3b2f17] placeholder-[#4b5563] focus:border-[#d4a667] focus:outline-none transition-colors" placeholder="Doe">
-                                </div>
-                            </div>
-                            <div>
-                                <label class="block text-sm font-medium mb-2">Email</label>
-                                <input type="email" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-[#3b2f17] placeholder-[#4b5563] focus:border-[#d4a667] focus:outline-none transition-colors" placeholder="john@example.com" required>
-                            </div>
-                            <div>
-                                <label class="block text-sm font-medium mb-2">Service Needed</label>
-                                <select class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-[#3b2f17] focus:border-[#d4a667] focus:outline-none transition-colors">
-                                    <option value="">Select a service</option>
-                                    <option value="canine">Canine Security</option>
-                                    <option value="mobile-patrol">Mobile Patrol</option>
-                                    <option value="construction">Construction Security</option>
-                                    <option value="manned-guarding" selected>Manned Guarding</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label class="block text-sm font-medium mb-2">Message</label>
-                                <textarea rows="4" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-[#3b2f17] placeholder-[#4b5563] focus:border-[#d4a667] focus:outline-none transition-colors" placeholder="Describe your security requirements..." required></textarea>
-                            </div>
-                            <button type="submit" class="w-full bg-gradient-to-r from-[#d4a667] to-[#e0c29a] px-8 py-3 rounded-lg text-[#3b2f17] font-semibold btn-glow hover:shadow-lg hover:shadow-[#d4a667]/25 transition-all">
-                                <i class="fas fa-paper-plane mr-2"></i>Send Message
-                            </button>
-                        </form>
-                    </div>
+     <section id="contact">
+            <div class="container mx-auto">
+                <div class="text-center mb-12 fade-scale-holo">
+                    <h2 class="text-4xl lg:text-5xl font-bold mb-6">
+                        <span class="bg-gradient-to-r from-[#d4ac67] to-[#d4be96] bg-clip-text  ">Get In Touch</span>
+                    </h2>
+                    <p class="text-lg    max-w-2xl mx-auto">
+                        Ready to secure your property? Contact our experts for a personalized security solution.
+                    </p>
                 </div>
-                <div class="fade-scale-holo">
-                    <div class="space-y-6">
+                <div class="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                    <div class="fade-scale-holo">
                         <div class="glass-effect rounded-2xl p-6 card-hover">
-                            <div class="flex items-center space-x-4">
-                                <div class="w-12 h-12 bg-gradient-to-r from-[#d4a667] to-[#e0c29a] rounded-lg flex items-center justify-center">
-                                    <i class="fas fa-phone text-[#3b2f17]"></i>
+                            <h3 class="text-xl font-bold mb-6">Send us a Message</h3>
+                            <form class="space-y-6">
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div>
+                                        <label class="block text-sm font-medium mb-2">First Name</label>
+                                        <input type="text" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:border-primary focus:outline-none transition-colors" placeholder="John">
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium mb-2">Last Name</label>
+                                        <input type="text" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:border-primary focus:outline-none transition-colors" placeholder="Doe">
+                                    </div>
                                 </div>
                                 <div>
-                                    <h4 class="font-semibold">Call Us</h4>
-                                    <p class="contact-info">+1 (555) 123-4567</p>
+                                    <label class="block text-sm font-medium mb-2">Email</label>
+                                    <input type="email" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:border-primary focus:outline-none transition-colors" placeholder="john@example.com">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium mb-2">Service Needed</label>
+                                    <select class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-primary focus:outline-none transition-colors">
+                                        <option value="">Select a service</option>
+                                        <option value="canine">Canine Security</option>
+                                        <option value="mobile-patrol">Mobile Patrol</option>
+                                        <option value="construction">Construction Security</option>
+                                        <option value="manned-guarding">Manned Guarding</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium mb-2">Message</label>
+                                    <textarea rows="4" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:border-primary focus:outline-none transition-colors" placeholder="Tell us about your security needs..."></textarea>
+                                </div>
+                                <button type="submit" class="w-full bg-gradient-to-r from-[#d4ac67] to-[#d4be96] px-8 py-3 rounded-lg text-white font-semibold btn-glow hover:shadow-md transition-all">
+                                    <i class="fas fa-paper-plane mr-2"></i>Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="fade-scale-holo">
+                        <div class="space-y-6">
+                            <div class="glass-effect rounded-2xl p-6 card-hover">
+                                <div class="flex items-center space-x-4">
+                                    <div class="w-12 h-12 bg-gradient-to-r from-[#d4ac67] to-[#d4be96] rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-phone text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold">Call Us</h4>
+                                        <p class="  ">+1 (555) 123-4567</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="glass-effect rounded-2xl p-6 card-hover">
-                            <div class="flex items-center space-x-4">
-                                <div class="w-12 h-12 bg-gradient-to-r from-[#d4a667] to-[#e0c29a] rounded-lg flex items-center justify-center">
-                                    <i class="fas fa-envelope text-[#3b2f17]"></i>
-                                </div>
-                                <div>
-                                    <h4 class="font-semibold">Email Us</h4>
-                                    <p class="contact-info">info@secureguardpro.com</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="glass-effect rounded-2xl p-6 card-hover">
-                            <div class="flex items-center space-x-4">
-                                <div class="w-12 h-12 bg-gradient-to-r from-[#d4a667] to-[#e0c29a] rounded-lg flex items-center justify-center">
-                                    <i class="fas fa-map-marker-alt text-[#3b2f17]"></i>
-                                </div>
-                                <div>
-                                    <h4 class="font-semibold">Visit Us</h4>
-                                    <p class="contact-info">123 Security Blvd, Safe City, SC 12345</p>
+                            <div class="glass-effect rounded-2xl p-6 card-hover">
+                                <div class="flex items-center space-x-4">
+                                    <div class="w-12 h-12 bg-gradient-to-r from-[#d4ac67] to-[#d4be96] rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-envelope text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold">Email Us</h4>
+                                        <p class="  ">info@secureguardpro.com</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="glass-effect rounded-2xl p-6 card-hover">
-                            <div class="flex items-center space-x-4">
-                                <div class="w-12 h-12 bg-gradient-to-r from-[#b91c1c] to-[#d4a667] rounded-lg flex items-center justify-center">
-                                    <i class="fas fa-exclamation-triangle text-[#3b2f17]"></i>
+                            <div class="glass-effect rounded-2xl p-6 card-hover">
+                                <div class="flex items-center space-x-4">
+                                    <div class="w-12 h-12 bg-gradient-to-r from-[#d4ac67] to-[#d4be96] rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-map-marker-alt text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold">Visit Us</h4>
+                                        <p class="  ">123 Security Blvd, Safe City, SC 12345</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h4 class="font-semibold">Emergency Hotline</h4>
-                                    <p class="contact-info">911</p>
+                            </div>
+                            <div class="glass-effect rounded-2xl p-6 card-hover">
+                                <h4 class="font-semibold mb-4">Emergency Hotline</h4>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-red-400 mb-2">911</div>
+                                    <p class="text-sm   ">For immediate emergencies</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
     <!-- Footer -->
     <footer class="bg-[#3b2f17] py-16">
