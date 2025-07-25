@@ -61,7 +61,7 @@ function initializeAnimations() {
     });
 
     // Typewriter animation for headings
-    gsap.utils.toArray('.typewriter-text').forEach(element => {
+    gsap.utils.toArray('.typewriter-Canine').forEach(element => {
         const text = element.textContent;
         gsap.to(element, {
             text: { value: text, delimiter: '' },
@@ -75,14 +75,15 @@ function initializeAnimations() {
         });
     });
 }
+
 // Type Writer Effect 
- const text = 'Manned Guarding';
-    const typewriterElement = document.querySelector('.typewriter-text');
+  const text = 'Canine Security';
+    const typewriterElement1 = document.querySelector('.typewriter-Canine');
     let charIndex = 0;
 
     function type() {
         if (charIndex < text.length) {
-            typewriterElement.textContent += text.charAt(charIndex);
+            typewriterElement1.textContent += text.charAt(charIndex);
             charIndex++;
             setTimeout(type, 100); // typing speed
         }
@@ -90,7 +91,38 @@ function initializeAnimations() {
 
     document.addEventListener('DOMContentLoaded', type);
 
-    // typewiter canine
+
+    
+// new 
+// Typewriter animation for headings
+    gsap.utils.toArray('.typewriter-text').forEach(element => {
+        const text2 = element.textContent;
+        gsap.to(element, {
+            text: { value: text2, delimiter: '' },
+            duration: text2.length * 0.05,
+            ease: 'none',
+            scrollTrigger: {
+                trigger: element,
+                start: 'top 90%',
+                toggleActions: 'play none none reset'
+            }
+        });
+    });
+
+
+// Type Writer Effect 
+  const text2 = 'Comprehensive Canine Security Services';
+    const typewriterElement2 = document.querySelector('.typewriter-text');
+    let charIndex1 = 0;
+    function write() {
+        if (charIndex1 < text2.length) {
+            typewriterElement2.textContent += text2.charAt(charIndex1);
+            charIndex1++;
+            setTimeout(write, 100); // typing speed
+        }
+    }
+
+        document.addEventListener('DOMContentLoaded', write);
 
     
 

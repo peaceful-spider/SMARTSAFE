@@ -61,7 +61,7 @@ function initializeAnimations() {
     });
 
     // Typewriter animation for headings
-    gsap.utils.toArray('.typewriter-text').forEach(element => {
+    gsap.utils.toArray('.typewriter-mobile').forEach(element => {
         const text = element.textContent;
         gsap.to(element, {
             text: { value: text, delimiter: '' },
@@ -76,13 +76,13 @@ function initializeAnimations() {
     });
 }
 // Type Writer Effect 
- const text = 'Manned Guarding';
-    const typewriterElement = document.querySelector('.typewriter-text');
+ const text = 'Mobile patrol';
+    const typewriterElement2 = document.querySelector('.typewriter-mobile');
     let charIndex = 0;
 
     function type() {
         if (charIndex < text.length) {
-            typewriterElement.textContent += text.charAt(charIndex);
+            typewriterElement2.textContent += text.charAt(charIndex);
             charIndex++;
             setTimeout(type, 100); // typing speed
         }
